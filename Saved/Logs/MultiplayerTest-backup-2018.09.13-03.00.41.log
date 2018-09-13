@@ -1,0 +1,821 @@
+﻿Log file open, 09/13/18 02:47:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MultiplayerTest
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1991648367) SRandInit(1991648367).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.169854
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AdvancedSessions
+LogPluginManager: Mounting plugin AdvancedSteamSessions
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steam API disabled!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: E:/Tournament/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.12-18.47.05:536][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.12-18.47.05:536][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.12-18.47.05:546][  0]LogInit: Computer: KONSTANTIN-ПК
+[2018.09.12-18.47.05:546][  0]LogInit: User: Konstantin
+[2018.09.12-18.47.05:546][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.12-18.47.05:546][  0]LogInit: High frequency timer resolution =3.020517 MHz
+[2018.09.12-18.47.05:546][  0]LogMemory: Memory total: Physical=6.0GB (6GB approx)
+[2018.09.12-18.47.05:546][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.12-18.47.05:546][  0]LogMemory: Process Physical Memory: 280.47 MB used, 280.47 MB peak
+[2018.09.12-18.47.05:546][  0]LogMemory: Process Virtual Memory: 284.56 MB used, 284.56 MB peak
+[2018.09.12-18.47.05:546][  0]LogMemory: Physical Memory: 3111.71 MB used,  2996.17 MB free, 6107.88 MB total
+[2018.09.12-18.47.05:546][  0]LogMemory: Virtual Memory: 661.77 MB used,  2996.17 MB free, 8388608.00 MB total
+[2018.09.12-18.47.05:688][  0]LogInit: Using OS detected language (ru-RU).
+[2018.09.12-18.47.05:688][  0]LogInit: Using OS detected locale (ru-RU).
+[2018.09.12-18.47.05:692][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2018.09.12-18.47.05:692][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2018.09.12-18.47.06:428][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.12-18.47.06:437][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6670' (Feature Level 11_0)
+[2018.09.12-18.47.06:437][  0]LogD3D11RHI:       1010/0/2797 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.09.12-18.47.06:437][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.12-18.47.06:441][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.12-18.47.06:441][  0]LogD3D11RHI:     GPU DeviceId: 0x6758 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.12-18.47.06:441][  0]LogWindows: EnumDisplayDevices:
+[2018.09.12-18.47.06:441][  0]LogWindows:    0. 'AMD Radeon HD 6670' (P:1 D:1)
+[2018.09.12-18.47.06:442][  0]LogWindows:    1. 'AMD Radeon HD 6670' (P:0 D:0)
+[2018.09.12-18.47.06:442][  0]LogWindows:    2. 'RDPDD Chained DD' (P:0 D:0)
+[2018.09.12-18.47.06:442][  0]LogWindows:    3. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.09.12-18.47.06:442][  0]LogWindows:    4. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.09.12-18.47.06:442][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2018.09.12-18.47.06:442][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6670
+[2018.09.12-18.47.06:442][  0]LogD3D11RHI:   Driver Version: Catalyst 15.7.1 (internal:15.200.1062.1004, unified:15.200.1062.1004)
+[2018.09.12-18.47.06:442][  0]LogD3D11RHI:      Driver Date: 8-3-2015
+[2018.09.12-18.47.06:442][  0]LogRHI: Texture pool is 707 MB (70% of 1010 MB)
+[2018.09.12-18.47.06:463][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
+[2018.09.12-18.47.06:470][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.12-18.47.06:481][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.09.12-18.47.06:481][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Intermediate/Shaders/WorkingDirectory/6908/).
+[2018.09.12-18.47.06:481][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Konstantin/AppData/Local/Temp/UnrealShaderWorkingDir/6E97F3FF47FB61FE0A3CB087EAE95CAB/'.
+[2018.09.12-18.47.06:481][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.12-18.47.07:732][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.12-18.47.07:782][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.12-18.47.07:832][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.12-18.47.07:882][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.12-18.47.07:933][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.12-18.47.07:984][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.12-18.47.08:034][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.12-18.47.08:084][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.12-18.47.08:125][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.12-18.47.08:173][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.12-18.47.08:222][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.09.12-18.47.08:270][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.09.12-18.47.08:319][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.09.12-18.47.08:367][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.09.12-18.47.08:415][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.09.12-18.47.08:511][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.09.12-18.47.08:511][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.09.12-18.47.08:545][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.12-18.47.08:628][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.12-18.47.08:655][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.12-18.47.08:703][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.12-18.47.08:751][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.12-18.47.08:799][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.12-18.47.08:847][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.12-18.47.08:847][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.12-18.47.09:235][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.12-18.47.09:366][  0]LogDerivedDataCache: Loaded boot cache 0.13s 105MB C:/Users/Konstantin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.09.12-18.47.09:366][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Konstantin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.09.12-18.47.09:367][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.12-18.47.09:367][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.12-18.47.09:367][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.12-18.47.09:367][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.12-18.47.09:388][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.12-18.47.09:400][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Konstantin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.12-18.47.09:412][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.12-18.47.09:412][  0]LogSlate: Using Freetype 2.6.0
+[2018.09.12-18.47.09:413][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.12-18.47.09:413][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.12-18.47.09:739][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2018.09.12-18.47.09:937][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.12-18.47.09:942][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.09.12-18.47.10:344][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.12-18.47.10:380][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.12-18.47.10:380][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.12-18.47.10:380][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.12-18.47.10:380][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.09.12-18.47.10:380][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.09.12-18.47.10:821][  0]LogNetVersion: MultiplayerTest , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1647500180)
+[2018.09.12-18.47.11:009][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.018850 seconds
+[2018.09.12-18.47.11:015][  0]LogUObjectArray: 35832 objects as part of root set at end of initial load.
+[2018.09.12-18.47.11:015][  0]LogUObjectAllocator: 7742864 out of 0 bytes used by permanent object pool.
+[2018.09.12-18.47.11:015][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.12-18.47.13:723][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.12-18.47.13:759][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.12-18.47.14:625][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.09.12-18.47.15:033][  0]SourceControl: Source control is disabled
+[2018.09.12-18.47.15:033][  0]SourceControl: Source control is disabled
+[2018.09.12-18.47.15:078][  0]SourceControl: Source control is disabled
+[2018.09.12-18.47.15:123][  0]SourceControl: Source control is disabled
+[2018.09.12-18.47.15:826][  0]LogOcInput: OculusInput pre-init called
+[2018.09.12-18.47.16:078][  0]LogEngine: Initializing Engine...
+[2018.09.12-18.47.16:081][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.12-18.47.16:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.12-18.47.16:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.12-18.47.16:477][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.12-18.47.16:493][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-18.47.16:536][  0]LogInit: FAudioDevice initialized.
+[2018.09.12-18.47.16:739][  0]LogDerivedDataCache: Saved boot cache 0.20s 105MB C:/Users/Konstantin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.09.12-18.47.16:769][  0]LogInit: Texture streaming: Enabled
+[2018.09.12-18.47.16:853][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.12-18.47.17:048][  0]LogInit: Transaction tracking system initialized
+[2018.09.12-18.47.17:319][  0]BlueprintLog: New page: Editor Load
+[2018.09.12-18.47.18:076][  0]LocalizationService: Localization service is disabled
+[2018.09.12-18.47.19:198][  0]LogConsoleResponse: Display: 
+[2018.09.12-18.47.19:438][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.12-18.47.19:438][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.12-18.47.19:438][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.12-18.47.20:268][  0]LogFileCache: Scanning file cache for directory 'E:/ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/' took 0.04s
+[2018.09.12-18.47.20:310][  0]SourceControl: Source control is disabled
+[2018.09.12-18.47.20:310][  0]Cmd: MAP LOAD FILE="../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.12-18.47.20:311][  0]LightingResults: New page: Lighting Build
+[2018.09.12-18.47.20:347][  0]MapCheck: New page: Map Check
+[2018.09.12-18.47.20:347][  0]LightingResults: New page: Lighting Build
+[2018.09.12-18.47.20:871][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/Textures/T_Gruntling_Glacer_N'
+[2018.09.12-18.47.20:871][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Gruntling_Glacer/SK_Gruntling_Glacer.SK_Gruntling_Glacer Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.20:871][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/Textures/T_Gruntling_Glacer_N' while loading ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/VisualAssets/Enemy/Enemy_Gruntling_Glacer/Textures/T_Gruntling_Glacer_D.uasset.
+[2018.09.12-18.47.20:871][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Gruntling_Glacer/SK_Gruntling_Glacer.SK_Gruntling_Glacer Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.20:871][  0]LoadErrors: Error: /Game/VisualAssets/Enemy/Enemy_Gruntling_Glacer/Textures/T_Gruntling_Glacer_D : Can't find file for asset. /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/Textures/T_Gruntling_Glacer_N
+[2018.09.12-18.47.20:871][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/Textures/T_Gruntling_Glacer_N'
+[2018.09.12-18.47.20:871][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Gruntling_Glacer/SK_Gruntling_Glacer.SK_Gruntling_Glacer Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.20:872][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/Textures/T_Gruntling_Glacer_N' while loading ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/VisualAssets/Enemy/Enemy_Gruntling_Glacer/Textures/T_Gruntling_Glacer_D.uasset.
+[2018.09.12-18.47.20:872][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Gruntling_Glacer/SK_Gruntling_Glacer.SK_Gruntling_Glacer Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.20:872][  0]LoadErrors: Error: /Game/VisualAssets/Enemy/Enemy_Gruntling_Glacer/Textures/T_Gruntling_Glacer_D : Can't find file for asset. /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/Textures/T_Gruntling_Glacer_N
+[2018.09.12-18.47.21:187][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Textures/T_Master_Grunt_N'
+[2018.09.12-18.47.21:187][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Master_Grunt/SK_Master_Grunt.SK_Master_Grunt Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.21:188][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Textures/T_Master_Grunt_N' while loading ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/VisualAssets/Enemy/Enemy_Master_Grunt/Textures/T_Master_Grunt_D.uasset.
+[2018.09.12-18.47.21:188][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Master_Grunt/SK_Master_Grunt.SK_Master_Grunt Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.21:188][  0]LoadErrors: Error: /Game/VisualAssets/Enemy/Enemy_Master_Grunt/Textures/T_Master_Grunt_D : Can't find file for asset. /Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Textures/T_Master_Grunt_N
+[2018.09.12-18.47.21:188][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Textures/T_Master_Grunt_N'
+[2018.09.12-18.47.21:188][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Master_Grunt/SK_Master_Grunt.SK_Master_Grunt Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.21:188][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Textures/T_Master_Grunt_N' while loading ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/VisualAssets/Enemy/Enemy_Master_Grunt/Textures/T_Master_Grunt_D.uasset.
+[2018.09.12-18.47.21:188][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Master_Grunt/SK_Master_Grunt.SK_Master_Grunt Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.21:188][  0]LoadErrors: Error: /Game/VisualAssets/Enemy/Enemy_Master_Grunt/Textures/T_Master_Grunt_D : Can't find file for asset. /Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Textures/T_Master_Grunt_N
+[2018.09.12-18.47.21:237][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Forge/Env_Forge/Materials/M_Forge_Face'
+[2018.09.12-18.47.21:237][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Forge/Env_Forge/Materials/M_Forge_Face' while loading ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/VisualAssets/KernelPortal/InfinityBladeFireLands/Environments/Forge/Env_Forge/StaticMesh/SM_Forge_Pebbles_1.uasset.
+[2018.09.12-18.47.21:237][  0]LoadErrors: Error: /Game/VisualAssets/KernelPortal/InfinityBladeFireLands/Environments/Forge/Env_Forge/StaticMesh/SM_Forge_Pebbles_1 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Forge/Env_Forge/Materials/M_Forge_Face
+[2018.09.12-18.47.21:237][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Forge/Env_Forge/Materials/M_Forge_Face'
+[2018.09.12-18.47.21:237][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Forge/Env_Forge/Materials/M_Forge_Face' while loading ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/VisualAssets/KernelPortal/InfinityBladeFireLands/Environments/Forge/Env_Forge/StaticMesh/SM_Forge_Pebbles_1.uasset.
+[2018.09.12-18.47.21:237][  0]LoadErrors: Error: /Game/VisualAssets/KernelPortal/InfinityBladeFireLands/Environments/Forge/Env_Forge/StaticMesh/SM_Forge_Pebbles_1 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Forge/Env_Forge/Materials/M_Forge_Face
+[2018.09.12-18.47.21:315][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_N'
+[2018.09.12-18.47.21:315][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Gruntling_Guardian/SK_Gruntling_Guardian.SK_Gruntling_Guardian Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.21:315][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_N' while loading ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/VisualAssets/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_D.uasset.
+[2018.09.12-18.47.21:315][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Gruntling_Guardian/SK_Gruntling_Guardian.SK_Gruntling_Guardian Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.21:315][  0]LoadErrors: Error: /Game/VisualAssets/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_D : Can't find file for asset. /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_N
+[2018.09.12-18.47.21:316][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_N'
+[2018.09.12-18.47.21:316][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Gruntling_Guardian/SK_Gruntling_Guardian.SK_Gruntling_Guardian Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.21:316][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_N' while loading ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/VisualAssets/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_D.uasset.
+[2018.09.12-18.47.21:316][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Gruntling_Guardian/SK_Gruntling_Guardian.SK_Gruntling_Guardian Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.21:316][  0]LoadErrors: Error: /Game/VisualAssets/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_D : Can't find file for asset. /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_N
+[2018.09.12-18.47.21:523][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Textures/T_Troll_N'
+[2018.09.12-18.47.21:523][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Troll/SK_Troll_Poison.SK_Troll_Poison Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.21:524][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Textures/T_Troll_N' while loading ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/VisualAssets/Enemy/Enemy_Troll/Textures/T_Troll_D.uasset.
+[2018.09.12-18.47.21:524][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Troll/SK_Troll_Poison.SK_Troll_Poison Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.21:524][  0]LoadErrors: Error: /Game/VisualAssets/Enemy/Enemy_Troll/Textures/T_Troll_D : Can't find file for asset. /Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Textures/T_Troll_N
+[2018.09.12-18.47.21:524][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Textures/T_Troll_N'
+[2018.09.12-18.47.21:524][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Troll/SK_Troll_Poison.SK_Troll_Poison Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.21:524][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Textures/T_Troll_N' while loading ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/VisualAssets/Enemy/Enemy_Troll/Textures/T_Troll_D.uasset.
+[2018.09.12-18.47.21:524][  0]LoadErrors: Failed to load /Game/VisualAssets/Enemy/Enemy_Troll/SK_Troll_Poison.SK_Troll_Poison Referenced by SkeletalMesh_GEN_VARIABLE
+[2018.09.12-18.47.21:524][  0]LoadErrors: Error: /Game/VisualAssets/Enemy/Enemy_Troll/Textures/T_Troll_D : Can't find file for asset. /Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Textures/T_Troll_N
+[2018.09.12-18.47.21:557][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeEffects/Effects/FX_Textures/Texture/T_Bats_Tile'
+[2018.09.12-18.47.21:557][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeEffects/Effects/FX_Textures/Texture/T_Bats_Tile' while loading ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/DecalInstances/PortalMat_Inst.uasset.
+[2018.09.12-18.47.21:557][  0]LoadErrors: Error: /Game/Blueprints/Gameplay/DecalInstances/PortalMat_Inst : Can't find file for asset. /Game/InfinityBladeEffects/Effects/FX_Textures/Texture/T_Bats_Tile
+[2018.09.12-18.47.21:557][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeEffects/Effects/FX_Textures/Texture/T_Bats_Tile'
+[2018.09.12-18.47.21:558][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeEffects/Effects/FX_Textures/Texture/T_Bats_Tile' while loading ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/DecalInstances/PortalMat_Inst.uasset.
+[2018.09.12-18.47.21:558][  0]LoadErrors: Error: /Game/Blueprints/Gameplay/DecalInstances/PortalMat_Inst : Can't find file for asset. /Game/InfinityBladeEffects/Effects/FX_Textures/Texture/T_Bats_Tile
+[2018.09.12-18.47.21:585][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_deco/Materials/M_Fire_Deco_Pots'
+[2018.09.12-18.47.21:585][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_deco/Materials/M_Fire_Deco_Pots' while loading ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/VisualAssets/TrollPortal/InfinityBladeFireLands/Environments/Fire/Env_Fire_deco/StaticMesh/SM_potbrokenmeshes2.uasset.
+[2018.09.12-18.47.21:585][  0]LoadErrors: Error: /Game/VisualAssets/TrollPortal/InfinityBladeFireLands/Environments/Fire/Env_Fire_deco/StaticMesh/SM_potbrokenmeshes2 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_deco/Materials/M_Fire_Deco_Pots
+[2018.09.12-18.47.21:586][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_deco/Materials/M_Fire_Deco_Pots'
+[2018.09.12-18.47.21:586][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_deco/Materials/M_Fire_Deco_Pots' while loading ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/VisualAssets/TrollPortal/InfinityBladeFireLands/Environments/Fire/Env_Fire_deco/StaticMesh/SM_potbrokenmeshes2.uasset.
+[2018.09.12-18.47.21:586][  0]LoadErrors: Error: /Game/VisualAssets/TrollPortal/InfinityBladeFireLands/Environments/Fire/Env_Fire_deco/StaticMesh/SM_potbrokenmeshes2 : Can't find file for asset. /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_deco/Materials/M_Fire_Deco_Pots
+[2018.09.12-18.47.22:438][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/Textures/T_Gruntling_Glacer_N'
+[2018.09.12-18.47.22:438][  0]LoadErrors: Failed to load /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/Textures/T_Gruntling_Glacer_N.T_Gruntling_Glacer_N Referenced by T_Gruntling_Glacer_D
+[2018.09.12-18.47.22:439][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/Textures/T_Gruntling_Glacer_N' while loading NULL.
+[2018.09.12-18.47.22:439][  0]LoadErrors: Failed to load /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/Textures/T_Gruntling_Glacer_N.T_Gruntling_Glacer_N Referenced by T_Gruntling_Glacer_D
+[2018.09.12-18.47.22:474][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeEffects/Effects/FX_Textures/Texture/T_Bats_Tile'
+[2018.09.12-18.47.22:474][  0]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Textures/Texture/T_Bats_Tile.T_Bats_Tile Referenced by PortalMat_Inst
+[2018.09.12-18.47.22:475][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeEffects/Effects/FX_Textures/Texture/T_Bats_Tile' while loading NULL.
+[2018.09.12-18.47.22:475][  0]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Textures/Texture/T_Bats_Tile.T_Bats_Tile Referenced by PortalMat_Inst
+[2018.09.12-18.47.22:524][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_deco/Materials/M_Fire_Deco_Pots'
+[2018.09.12-18.47.22:524][  0]LoadErrors: Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_deco/Materials/M_Fire_Deco_Pots.M_Fire_Deco_Pots Referenced by SM_potbrokenmeshes2
+[2018.09.12-18.47.22:524][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_deco/Materials/M_Fire_Deco_Pots' while loading NULL.
+[2018.09.12-18.47.22:524][  0]LoadErrors: Failed to load /Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_deco/Materials/M_Fire_Deco_Pots.M_Fire_Deco_Pots Referenced by SM_potbrokenmeshes2
+[2018.09.12-18.47.22:535][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Textures/T_Troll_N'
+[2018.09.12-18.47.22:535][  0]LoadErrors: Failed to load /Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Textures/T_Troll_N.T_Troll_N Referenced by T_Troll_D
+[2018.09.12-18.47.22:535][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Textures/T_Troll_N' while loading NULL.
+[2018.09.12-18.47.22:535][  0]LoadErrors: Failed to load /Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Textures/T_Troll_N.T_Troll_N Referenced by T_Troll_D
+[2018.09.12-18.47.22:553][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_N'
+[2018.09.12-18.47.22:553][  0]LoadErrors: Failed to load /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_N.T_Gruntling_Guardian_N Referenced by T_Gruntling_Guardian_D
+[2018.09.12-18.47.22:553][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_N' while loading NULL.
+[2018.09.12-18.47.22:553][  0]LoadErrors: Failed to load /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_N.T_Gruntling_Guardian_N Referenced by T_Gruntling_Guardian_D
+[2018.09.12-18.47.22:563][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeFireLands/Environments/Forge/Env_Forge/Materials/M_Forge_Face'
+[2018.09.12-18.47.22:563][  0]LoadErrors: Failed to load /Game/InfinityBladeFireLands/Environments/Forge/Env_Forge/Materials/M_Forge_Face.M_Forge_Face Referenced by SM_Forge_Pebbles_1
+[2018.09.12-18.47.22:564][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeFireLands/Environments/Forge/Env_Forge/Materials/M_Forge_Face' while loading NULL.
+[2018.09.12-18.47.22:564][  0]LoadErrors: Failed to load /Game/InfinityBladeFireLands/Environments/Forge/Env_Forge/Materials/M_Forge_Face.M_Forge_Face Referenced by SM_Forge_Pebbles_1
+[2018.09.12-18.47.22:569][  0]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Textures/T_Master_Grunt_N'
+[2018.09.12-18.47.22:569][  0]LoadErrors: Failed to load /Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Textures/T_Master_Grunt_N.T_Master_Grunt_N Referenced by T_Master_Grunt_D
+[2018.09.12-18.47.22:569][  0]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Textures/T_Master_Grunt_N' while loading NULL.
+[2018.09.12-18.47.22:570][  0]LoadErrors: Failed to load /Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Textures/T_Master_Grunt_N.T_Master_Grunt_N Referenced by T_Master_Grunt_D
+[2018.09.12-18.47.23:655][  0]LogAIModule: Creating AISystem for world Menu
+[2018.09.12-18.47.23:656][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.12-18.47.23:796][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.12-18.47.23:906][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 109.836ms to complete.
+[2018.09.12-18.47.23:907][  0]LogFileHelpers: Loading map 'Menu' took 3.597
+[2018.09.12-18.47.24:040][  0]LogCollectionManager: Loaded 0 collections in 0.002059 seconds
+[2018.09.12-18.47.24:113][  0]LogFileCache: Scanning file cache for directory 'E:/ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Saved/Collections/' took 0.01s
+[2018.09.12-18.47.24:113][  0]LogFileCache: Scanning file cache for directory 'E:/ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Developers/Konstantin/Collections/' took 0.01s
+[2018.09.12-18.47.24:113][  0]LogFileCache: Scanning file cache for directory 'E:/ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Collections/' took 0.01s
+[2018.09.12-18.47.24:113][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.12-18.47.24:123][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2408 classes and 503 folders.
+[2018.09.12-18.47.24:177][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.09.12-18.47.24:230][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.09.12-18.47.24:277][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.09.12-18.47.24:369][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.12-18.47.24:371][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.12-18.47.24:377][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.12-18.47.24:507][  0]LogRenderer: Reallocating scene render targets to support 1120x572 Format 9 NumSamples 1 (Frame:1).
+[2018.09.12-18.47.24:772][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.09.12-18.47.24:772][  0]LogLoad: (Engine Initialization) Total time: 20.94 seconds
+[2018.09.12-18.47.24:772][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.12-18.47.24:772][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.09.12-18.47.24:772][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.09.12-18.47.25:133][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.09.12-18.47.25:180][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.12-18.47.25:447][  1]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/SK_Gruntling_Glacer'
+[2018.09.12-18.47.25:447][  1]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/SK_Gruntling_Glacer'
+[2018.09.12-18.47.25:448][  1]LogUObjectGlobals: Warning: Failed to find object 'SkeletalMesh /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/SK_Gruntling_Glacer.SK_Gruntling_Glacer'
+[2018.09.12-18.47.26:115][  3]LogAssetRegistry: Asset discovery search completed in 16.3963 seconds
+[2018.09.12-18.47.26:119][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.09.12-18.47.26:119][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2018.09.12-18.47.30:860][283]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/SK_Troll_Poison'
+[2018.09.12-18.47.30:861][283]LogLinker: Warning: Can't find file '/Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/SK_Troll_Poison'
+[2018.09.12-18.47.30:862][283]LogUObjectGlobals: Warning: Failed to find object 'SkeletalMesh /Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/SK_Troll_Poison.SK_Troll_Poison'
+[2018.09.12-18.47.49:030][183]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.12-18.48.04:218][948]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.12-18.48.05:004][948]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2018.09.12-18.48.06:804][948]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.09.12-18.48.06:822][948]LogSlate: Took 0.017093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.12-18.48.10:499][199]BlueprintLog: New page: Compile Health_WB
+[2018.09.12-18.48.18:245][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:246][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:291][627]LogSlate: Took 0.045308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.09.12-18.48.18:291][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:291][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:291][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:291][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:291][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:291][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:292][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:292][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:292][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:292][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:292][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:292][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:292][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:292][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:292][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:292][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:292][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:292][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:292][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:292][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:292][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:292][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:292][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:292][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:292][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:292][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:293][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:293][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:293][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:293][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:293][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:293][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:293][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:293][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:293][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:293][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:293][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:293][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:293][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:293][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:293][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:293][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:293][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:293][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:293][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:294][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:294][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:294][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.18:294][627]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf' error.
+[2018.09.12-18.48.18:294][627]LogSlate: Warning: GetFontFace failed to load or process '../../../Engine/Content/Slate/Fonts/Fonts/Roboto-Bold.ttf'
+[2018.09.12-18.48.29:213][287]BlueprintLog: New page: Compile Health_WB
+[2018.09.12-18.48.50:463][659]BlueprintLog: New page: Compile Health_WB
+[2018.09.12-18.48.51:514][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/Health_WB" FILE="../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Health_WB.uasset" SILENT=true
+[2018.09.12-18.48.51:564][754]LogSavePackage: Save=34.24ms
+[2018.09.12-18.48.51:564][754]LogSavePackage: Moving '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Saved/Health_WB23B9EB3644A2B743FCB352A8CFA3BB2F.tmp' to '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Health_WB.uasset'
+[2018.09.12-18.48.51:566][754]LogSavePackage: Display: Finished SavePackage ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Health_WB.uasset
+[2018.09.12-18.49.09:246][809]BlueprintLog: New page: Compile Health_WB
+[2018.09.12-18.49.09:848][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/Health_WB" FILE="../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Health_WB.uasset" SILENT=true
+[2018.09.12-18.49.09:861][856]LogSavePackage: Save=7.97ms
+[2018.09.12-18.49.09:862][856]LogSavePackage: Moving '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Saved/Health_WB5E93DFF64ED97A2B0BDF76862284B3E8.tmp' to '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Health_WB.uasset'
+[2018.09.12-18.49.09:864][856]LogSavePackage: Display: Finished SavePackage ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Health_WB.uasset
+[2018.09.12-18.50.49:233][477]LogSlate: Took 0.015451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.12-18.51.29:781][110]LogRenderer: Reallocating scene render targets to support 1120x692 Format 9 NumSamples 1 (Frame:1).
+[2018.09.12-18.52.57:134][342]BlueprintLog: New page: Compile BionicPawn_Parent
+[2018.09.12-18.53.44:868][984]BlueprintLog: New page: Compile BionicPawn_Parent
+[2018.09.12-18.54.45:994][381]BlueprintLog: New page: Compile BionicPawn_Parent
+[2018.09.12-18.55.09:052][ 24]LogAIModule: Creating AISystem for world Map1
+[2018.09.12-18.55.10:477][ 24]LogSavePackage: Save=136.99ms
+[2018.09.12-18.55.10:477][ 24]LogSavePackage: Moving '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Saved/BionicPawn_Parent35C943A142DF8A4C9439E3937847AE53.tmp' to '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/BionicPawn_Parent.uasset'
+[2018.09.12-18.55.10:480][ 24]LogSavePackage: Display: Finished SavePackage ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/BionicPawn_Parent.uasset
+[2018.09.12-18.55.10:699][ 24]LogSavePackage: Save=190.22ms
+[2018.09.12-18.55.10:699][ 24]LogSavePackage: Moving '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Saved/Flamer_ChildE0675AA94CD72AAD52F2D294932C3A98.tmp' to '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/Flamer_Child.uasset'
+[2018.09.12-18.55.10:701][ 24]LogSavePackage: Display: Finished SavePackage ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/Flamer_Child.uasset
+[2018.09.12-18.55.10:883][ 24]LogSavePackage: Save=159.69ms
+[2018.09.12-18.55.10:883][ 24]LogSavePackage: Moving '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Saved/Giant_Child3F94B39549224B21187E59A905AA8D81.tmp' to '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/Giant_Child.uasset'
+[2018.09.12-18.55.10:885][ 24]LogSavePackage: Display: Finished SavePackage ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/Giant_Child.uasset
+[2018.09.12-18.55.10:989][ 24]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.12-18.55.11:053][ 24]LogSavePackage: Save=147.10ms
+[2018.09.12-18.55.11:053][ 24]LogSavePackage: Moving '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Saved/MasterGrunt_Child4AFB4B3C48B4B902FAD9FFB6E0355A0F.tmp' to '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/MasterGrunt_Child.uasset'
+[2018.09.12-18.55.11:056][ 24]LogSavePackage: Display: Finished SavePackage ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/MasterGrunt_Child.uasset
+[2018.09.12-18.55.11:220][ 24]LogSavePackage: Save=143.04ms
+[2018.09.12-18.55.11:220][ 24]LogSavePackage: Moving '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Saved/Rocket_Child89D530134674D3781F5624864B23E283.tmp' to '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/Rocket_Child.uasset'
+[2018.09.12-18.55.11:222][ 24]LogSavePackage: Display: Finished SavePackage ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/Rocket_Child.uasset
+[2018.09.12-18.55.11:387][ 24]LogSavePackage: Save=143.42ms
+[2018.09.12-18.55.11:387][ 24]LogSavePackage: Moving '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Saved/Soldier_Child4195A4CA462BE1A53CD3A4A7B10EEC0D.tmp' to '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/Soldier_Child.uasset'
+[2018.09.12-18.55.11:390][ 24]LogSavePackage: Display: Finished SavePackage ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/Soldier_Child.uasset
+[2018.09.12-18.55.11:499][ 24]LogSavePackage: Save=84.36ms
+[2018.09.12-18.55.11:499][ 24]LogSavePackage: Moving '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Saved/Suicide_Child44D31BF14D9589CB288BF5BB544E2CC4.tmp' to '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/Suicide_Child.uasset'
+[2018.09.12-18.55.11:502][ 24]LogSavePackage: Display: Finished SavePackage ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/Suicide_Child.uasset
+[2018.09.12-18.55.11:708][ 24]LogSavePackage: Save=184.60ms
+[2018.09.12-18.55.11:708][ 24]LogSavePackage: Moving '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Saved/Troll_ChildCCD92CB44103113176BA1CABACE7B496.tmp' to '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/Troll_Child.uasset'
+[2018.09.12-18.55.11:710][ 24]LogSavePackage: Display: Finished SavePackage ../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Blueprints/Gameplay/Pawns/Troll_Child.uasset
+[2018.09.12-18.55.11:711][ 24]Cmd: MAP LOAD FILE="../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Maps/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.12-18.55.11:712][ 24]LightingResults: New page: Lighting Build
+[2018.09.12-18.55.11:714][ 24]LoadErrors: New page: Loading map: Map1.umap
+[2018.09.12-18.55.11:714][ 24]MapCheck: New page: Map Check
+[2018.09.12-18.55.11:714][ 24]LightingResults: New page: Lighting Build
+[2018.09.12-18.55.11:982][ 24]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.12-18.55.12:050][ 24]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.12-18.55.12:164][ 24]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 113.591ms to complete.
+[2018.09.12-18.55.12:164][ 24]LogFileHelpers: Loading map 'Map1' took 0.454
+[2018.09.12-18.55.17:193][342]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.12-18.55.17:306][342]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2018.09.12-18.55.17:306][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.12-18.55.17:306][342]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.09.12-18.55.17:306][342]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.09.12-18.55.17:307][342]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.09.12-18.55.17:307][342]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.09.12-18.55.17:307][342]LogOnline: Warning: STEAM: Steam API disabled!
+[2018.09.12-18.55.17:307][342]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.09.12-18.55.17:318][342]PIE: New page: PIE session: Map1 (Sep 13, 2018, 10:55:17 AM)
+[2018.09.12-18.55.17:319][342]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map1
+[2018.09.12-18.55.17:341][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022380s)
+[2018.09.12-18.55.17:342][342]LogAIModule: Creating AISystem for world Map1
+[2018.09.12-18.55.17:342][342]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2018.09.12-18.55.17:342][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.023668s)
+[2018.09.12-18.55.17:366][342]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.12-18.55.17:376][342]LogInit: FAudioDevice initialized.
+[2018.09.12-18.55.17:418][342]LogLoad: Game class is 'GameplayGameMode_C'
+[2018.09.12-18.55.17:420][342]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2018.09.13-02.55.17
+[2018.09.12-18.55.17:421][342]LogWorld: Bringing up level for play took: 0.002036
+[2018.09.12-18.55.17:499][342]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.09.12-18.55.17:522][342]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0.111
+[2018.09.12-18.55.17:522][342]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2018.09.12-18.55.19:370][547]AdvancedSteamFriendsLog: Warning: STEAM Couldn't be verified as initialized
+[2018.09.12-18.55.54:548][718]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2018.09.12-18.55.54:592][718]LogOnline: Warning: OSS: Can't destroy a null online session (Game)
+[2018.09.12-18.55.54:627][718]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.09.12-18.55.54:627][718]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.09.12-18.55.54:627][718]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.09.12-18.55.54:627][718]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.09.12-18.55.54:627][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.12-18.55.54:628][718]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Maps/Map1.Map1_C' with ClassGeneratedBy '/Game/Maps/Map1.Map1:PersistentLevel.Map1'
+[2018.09.12-18.55.54:676][719]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.09.12-18.55.54:676][719]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.09.12-18.56.50:846][393]SourceControl: On branch master
+[2018.09.12-18.56.50:846][393]SourceControl: Your branch is up to date with 'origin/master'.
+[2018.09.12-18.56.50:846][393]SourceControl: Changes to be committed:
+[2018.09.12-18.56.50:846][393]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2018.09.12-18.56.50:846][393]SourceControl: 	deleted:    Content/Blueprints/Gameplay/Pawns/Flamer/Flamer.uasset
+[2018.09.12-18.56.50:846][393]SourceControl: 	deleted:    Content/Blueprints/Gameplay/Pawns/Giant/Giant.uasset
+[2018.09.12-18.56.50:846][393]SourceControl: 	deleted:    Content/Blueprints/Gameplay/Pawns/MasterGrunt/MasterGrunt.uasset
+[2018.09.12-18.56.50:846][393]SourceControl: 	deleted:    Content/Blueprints/Gameplay/Pawns/RocketGruntling/RocketLauncher.uasset
+[2018.09.12-18.56.50:846][393]SourceControl: 	deleted:    Content/Blueprints/Gameplay/Pawns/Soldier/Soldier.uasset
+[2018.09.12-18.56.50:846][393]SourceControl: 	deleted:    Content/Blueprints/Gameplay/Pawns/Suicide/Suicide.uasset
+[2018.09.12-18.56.50:846][393]SourceControl: 	deleted:    Content/Blueprints/Gameplay/Pawns/Troll/Troll.uasset
+[2018.09.12-18.56.50:846][393]SourceControl: Changes not staged for commit:
+[2018.09.12-18.56.50:847][393]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.09.12-18.56.50:847][393]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.09.12-18.56.50:847][393]SourceControl: 	modified:   Content/Blueprints/Gameplay/Pawns/BionicPawn_Parent.uasset
+[2018.09.12-18.56.50:847][393]SourceControl: 	modified:   Content/Blueprints/Gameplay/Pawns/Flamer_Child.uasset
+[2018.09.12-18.56.50:847][393]SourceControl: 	modified:   Content/Blueprints/Gameplay/Pawns/Giant_Child.uasset
+[2018.09.12-18.56.50:847][393]SourceControl: 	modified:   Content/Blueprints/Gameplay/Pawns/MasterGrunt_Child.uasset
+[2018.09.12-18.56.50:847][393]SourceControl: 	modified:   Content/Blueprints/Gameplay/Pawns/Rocket_Child.uasset
+[2018.09.12-18.56.50:847][393]SourceControl: 	modified:   Content/Blueprints/Gameplay/Pawns/Soldier_Child.uasset
+[2018.09.12-18.56.50:847][393]SourceControl: 	modified:   Content/Blueprints/Gameplay/Pawns/Suicide_Child.uasset
+[2018.09.12-18.56.50:847][393]SourceControl: 	modified:   Content/Blueprints/Gameplay/Pawns/Troll_Child.uasset
+[2018.09.12-18.56.50:847][393]SourceControl: Untracked files:
+[2018.09.12-18.56.50:847][393]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.09.12-18.56.50:847][393]SourceControl: 	Content/Blueprints/Gameplay/Health_WB.uasset
+[2018.09.12-18.56.50:847][393]SourceControl: 	Intermediate/
+[2018.09.12-18.56.50:847][393]SourceControl: 	Saved/
+[2018.09.12-18.56.56:117][698]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.12-18.56.56:342][699]Cmd: QUIT_EDITOR
+[2018.09.12-18.56.56:373][699]LogExit: Preparing to exit.
+[2018.09.12-18.56.56:940][699]LogDirectoryWatcher: A directory notification for 'E:/ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/' was aborted.
+[2018.09.12-18.56.57:004][699]LogExit: Editor shut down
+[2018.09.12-18.56.57:011][699]LogExit: Transaction tracking system shut down
+[2018.09.12-18.56.57:238][699]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.09.12-18.56.57:238][699]LogDirectoryWatcher: A directory notification for '../../../../../ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/' was aborted.
+[2018.09.12-18.56.57:238][699]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.09.12-18.56.57:238][699]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.09.12-18.56.57:238][699]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.09.12-18.56.57:358][699]LogExit: Object subsystem successfully closed.
+[2018.09.12-18.56.57:375][699]LogD3D11RHI: Shutdown
+[2018.09.12-18.56.57:375][699]LogD3D11RHI: CleanupD3DDevice
+[2018.09.12-18.56.57:472][699]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.09.12-18.56.57:498][699]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (540)
+[2018.09.12-18.56.57:498][699]LogModuleManager: Shutting down and abandoning module Voice (538)
+[2018.09.12-18.56.57:498][699]LogModuleManager: Shutting down and abandoning module SequencerWidgets (536)
+[2018.09.12-18.56.57:498][699]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2018.09.12-18.56.57:498][699]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2018.09.12-18.56.57:508][699]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.09.12-18.56.57:508][699]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.09.12-18.56.57:508][699]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.09.12-18.56.57:508][699]LogDirectoryWatcher: A directory notification for 'E:/Tournament/UE_4.17/FeaturePacks/' was aborted.
+[2018.09.12-18.56.57:510][699]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.09.12-18.56.57:510][699]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.09.12-18.56.57:510][699]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.09.12-18.56.57:510][699]LogDirectoryWatcher: A directory notification for 'E:/ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Collections/' was aborted.
+[2018.09.12-18.56.57:510][699]LogDirectoryWatcher: A directory notification for 'E:/ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Content/Developers/Konstantin/Collections/' was aborted.
+[2018.09.12-18.56.57:510][699]LogDirectoryWatcher: A directory notification for 'E:/ProjectsUnreal4.17/TacticsWithGitHub/GameTactics_04/Saved/Collections/' was aborted.
+[2018.09.12-18.56.57:510][699]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.09.12-18.56.57:510][699]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module Media (481)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module CharacterAI (476)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module AudioCapture (474)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module SequenceRecorder (473)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module SmartSnapping (470)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module SessionServices (468)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module ViewportSnapping (466)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module ViewportInteraction (464)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module ClothPainter (462)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module LogVisualizer (460)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module IntroTutorials (458)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (457)
+[2018.09.12-18.56.57:511][699]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (454)
+[2018.09.12-18.56.57:512][699]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (452)
+[2018.09.12-18.56.57:512][699]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (450)
+[2018.09.12-18.56.57:512][699]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (449)
+[2018.09.12-18.56.57:597][699]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (446)
+[2018.09.12-18.56.57:597][699]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (444)
+[2018.09.12-18.56.57:597][699]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (442)
+[2018.09.12-18.56.57:597][699]LogModuleManager: Shutting down and abandoning module InputBindingEditor (440)
+[2018.09.12-18.56.57:597][699]LogModuleManager: Shutting down and abandoning module MergeActors (438)
+[2018.09.12-18.56.57:597][699]LogModuleManager: Shutting down and abandoning module SizeMap (436)
+[2018.09.12-18.56.57:597][699]LogModuleManager: Shutting down and abandoning module TreeMap (434)
+[2018.09.12-18.56.57:597][699]LogModuleManager: Shutting down and abandoning module ReferenceViewer (432)
+[2018.09.12-18.56.57:597][699]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (430)
+[2018.09.12-18.56.57:597][699]LogModuleManager: Shutting down and abandoning module LocalizationService (429)
+[2018.09.12-18.56.57:597][699]LogModuleManager: Shutting down and abandoning module HardwareTargeting (426)
+[2018.09.12-18.56.57:597][699]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (424)
+[2018.09.12-18.56.57:597][699]LogModuleManager: Shutting down and abandoning module UndoHistory (422)
+[2018.09.12-18.56.57:597][699]LogModuleManager: Shutting down and abandoning module XmlParser (420)
+[2018.09.12-18.56.57:598][699]LogModuleManager: Shutting down and abandoning module Blutility (418)
+[2018.09.12-18.56.57:598][699]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (416)
+[2018.09.12-18.56.57:598][699]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (415)
+[2018.09.12-18.56.57:598][699]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (412)
+[2018.09.12-18.56.57:598][699]LogModuleManager: Shutting down and abandoning module SettingsEditor (410)
+[2018.09.12-18.56.57:598][699]LogModuleManager: Shutting down and abandoning module ProjectLauncher (408)
+[2018.09.12-18.56.57:598][699]LogModuleManager: Shutting down and abandoning module SessionFrontend (406)
+[2018.09.12-18.56.57:598][699]LogModuleManager: Shutting down and abandoning module ProfilerClient (404)
+[2018.09.12-18.56.57:598][699]LogModuleManager: Shutting down and abandoning module DeviceManager (402)
+[2018.09.12-18.56.57:598][699]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (401)
+[2018.09.12-18.56.57:638][699]LogModuleManager: Shutting down and abandoning module AutomationController (398)
+[2018.09.12-18.56.57:638][699]LogModuleManager: Shutting down and abandoning module AutomationWindow (396)
+[2018.09.12-18.56.57:638][699]LogModuleManager: Shutting down and abandoning module Layers (394)
+[2018.09.12-18.56.57:638][699]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (392)
+[2018.09.12-18.56.57:638][699]LogModuleManager: Shutting down and abandoning module DetailCustomizations (390)
+[2018.09.12-18.56.57:638][699]LogModuleManager: Shutting down and abandoning module PackagesDialog (388)
+[2018.09.12-18.56.57:638][699]LogModuleManager: Shutting down and abandoning module Persona (386)
+[2018.09.12-18.56.57:638][699]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (385)
+[2018.09.12-18.56.57:638][699]LogModuleManager: Shutting down and abandoning module AnimGraph (383)
+[2018.09.12-18.56.57:638][699]LogModuleManager: Shutting down and abandoning module Kismet (380)
+[2018.09.12-18.56.57:648][699]LogModuleManager: Shutting down and abandoning module ClassViewer (378)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module Toolbox (376)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module ModuleUI (374)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module MovieSceneTools (372)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module OutputLog (370)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module GammaUI (368)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module Documentation (366)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (364)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module MovieScene (362)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module Niagara (360)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module NiagaraEditor (359)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (356)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module LauncherPlatform (354)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module AnalyticsET (352)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module PortalServices (350)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module PortalRpc (348)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module MessagingRpc (346)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module AIModule (344)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module GameplayDebugger (343)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module AITestSuite (341)
+[2018.09.12-18.56.57:650][699]LogModuleManager: Shutting down and abandoning module ProfilerService (338)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module TaskGraph (336)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module SteamVRController (334)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (332)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (330)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module OculusInput (328)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (326)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (324)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module CableComponent (322)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (320)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (318)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module DesktopPlatform (299)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.09.12-18.56.57:811][699]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.09.12-18.56.57:812][699]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.09.12-18.56.57:812][699]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.09.12-18.56.57:812][699]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.09.12-18.56.57:812][699]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.09.12-18.56.57:812][699]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.09.12-18.56.57:812][699]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.09.12-18.56.57:812][699]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.09.12-18.56.57:812][699]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.09.12-18.56.57:813][699]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.09.12-18.56.57:813][699]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.09.12-18.56.57:813][699]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.09.12-18.56.57:814][699]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.09.12-18.56.57:814][699]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.09.12-18.56.57:814][699]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.09.12-18.56.57:814][699]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.09.12-18.56.57:814][699]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.09.12-18.56.57:814][699]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.09.12-18.56.57:814][699]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.09.12-18.56.57:814][699]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.09.12-18.56.57:914][699]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.09.12-18.56.58:014][699]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.09.12-18.56.58:014][699]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.09.12-18.56.58:014][699]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.09.12-18.56.58:014][699]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.09.12-18.56.58:014][699]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.09.12-18.56.58:014][699]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.09.12-18.56.58:015][699]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.09.12-18.56.58:015][699]LogModuleManager: Shutting down and abandoning module AdvancedSteamSessions (236)
+[2018.09.12-18.56.58:015][699]LogModuleManager: Shutting down and abandoning module AdvancedSessions (234)
+[2018.09.12-18.56.58:015][699]LogModuleManager: Shutting down and abandoning module Paper2D (232)
+[2018.09.12-18.56.58:015][699]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (230)
+[2018.09.12-18.56.58:015][699]LogModuleManager: Shutting down and abandoning module WmfMedia (228)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module PacketHandler (226)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (224)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (222)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module MediaAssets (216)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.09.12-18.56.58:016][699]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.09.12-18.56.58:018][699]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.09.12-18.56.58:018][699]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.09.12-18.56.58:018][699]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.09.12-18.56.58:018][699]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.09.12-18.56.58:018][699]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.09.12-18.56.58:018][699]LogModuleManager: Shutting down and abandoning module Core (174)
+[2018.09.12-18.56.58:018][699]LogModuleManager: Shutting down and abandoning module KismetCompiler (170)
+[2018.09.12-18.56.58:018][699]LogModuleManager: Shutting down and abandoning module MeshUtilities (168)
+[2018.09.12-18.56.58:018][699]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (167)
+[2018.09.12-18.56.58:018][699]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (166)
+[2018.09.12-18.56.58:019][699]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (165)
+[2018.09.12-18.56.58:019][699]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (163)
+[2018.09.12-18.56.58:019][699]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (161)
+[2018.09.12-18.56.58:019][699]LogModuleManager: Shutting down and abandoning module MaterialBaking (157)
+[2018.09.12-18.56.58:019][699]LogModuleManager: Shutting down and abandoning module LevelSequence (154)
+[2018.09.12-18.56.58:019][699]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (152)
+[2018.09.12-18.56.58:020][699]LogModuleManager: Shutting down and abandoning module DerivedDataCache (150)
+[2018.09.12-18.56.58:111][699]LogDerivedDataCache: Shutdown
+[2018.09.12-18.56.58:111][699]LogModuleManager: Shutting down and abandoning module TargetPlatform (148)
+[2018.09.12-18.56.58:111][699]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (147)
+[2018.09.12-18.56.58:111][699]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (145)
+[2018.09.12-18.56.58:111][699]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (143)
+[2018.09.12-18.56.58:111][699]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (141)
+[2018.09.12-18.56.58:111][699]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (139)
+[2018.09.12-18.56.58:111][699]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (137)
+[2018.09.12-18.56.58:111][699]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (135)
+[2018.09.12-18.56.58:111][699]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (133)
+[2018.09.12-18.56.58:111][699]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (131)
+[2018.09.12-18.56.58:111][699]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (129)
+[2018.09.12-18.56.58:111][699]LogModuleManager: Shutting down and abandoning module ImageWrapper (128)
+[2018.09.12-18.56.58:111][699]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (125)
+[2018.09.12-18.56.58:111][699]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (123)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (121)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (119)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (93)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (91)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (89)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (87)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (54)
+[2018.09.12-18.56.58:112][699]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (50)
+[2018.09.12-18.56.58:112][699]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.09.12-18.56.58:112][699]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2018.09.12-18.56.58:113][699]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2018.09.12-18.56.58:113][699]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2018.09.12-18.56.58:113][699]LogOnline: Display: Unloading online subsystem: STEAM
+[2018.09.12-18.56.58:113][699]LogOnline: Display: Unloading online subsystem: NULL
+[2018.09.12-18.56.58:113][699]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.09.12-18.56.58:113][699]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.09.12-18.56.58:113][699]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.09.12-18.56.58:113][699]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD65DC244-44DF-A220-E553-398219E3D147%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=b19575cd4c512bae2d0928b74a89dbe6%7Cb5027df129bc43d1b0dba9f66342505d%7Ce65336ce-a652-4926-93d0-de7cfdb38018&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.09.12-18.56.58:119][699]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.09.12-18.56.58:121][699]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.09.12-18.56.58:121][699]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.09.12-18.56.58:121][699]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.09.12-18.56.58:121][699]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.09.12-18.56.58:121][699]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.09.12-18.56.58:121][699]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.09.12-18.56.58:121][699]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.09.12-18.56.58:123][699]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.09.12-18.56.58:123][699]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.09.12-18.56.58:123][699]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.09.12-18.56.58:123][699]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.09.12-18.56.58:123][699]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.09.12-18.56.58:123][699]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.09.12-18.56.58:123][699]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.09.12-18.56.58:123][699]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.09.12-18.56.58:123][699]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.09.12-18.56.58:123][699]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.09.12-18.56.58:123][699]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.09.12-18.56.58:126][699]LogExit: Exiting.
+[2018.09.12-18.56.58:135][699]Log file closed, 09/13/18 02:56:58
